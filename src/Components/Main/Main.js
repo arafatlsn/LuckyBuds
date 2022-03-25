@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
 import Cart from '../Cart/Cart'
-import { BsFillQuestionDiamondFill } from "react-icons/bs";
+import { BsFillQuestionDiamondFill, BsFillTrashFill } from "react-icons/bs";
+import ShowModal from '../Modal/Modal'
 import './Main.css'
 
 const Main = () => {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([])
+  const [disModal, setDis] = useState(false)
   useEffect(() => {
     fetch('generated (1).json')
     .then(res => res.json())
@@ -21,6 +23,8 @@ const Main = () => {
       // alert('you are reached maximum item selected')
     }
   }
+
+  console.log(disModal)
   return (
     <div className='main-container'>
       <div className='card-container'>
@@ -34,10 +38,11 @@ const Main = () => {
           cart.map(cartItem => <Cart key={cartItem[0]} cartItem = {cartItem}></Cart>)
         }
         <div className='cart-lucky-div d-flex flex-column mt-3'>
-          <button className='lucky-button m-1 mx-lg-2 py-1'>Lucky One <BsFillQuestionDiamondFill/></button>
-          <button className='reset-button m-1 mx-lg-2 py-1'>Reset</button>
+          <button onClick={() => setDis(true)} className='lucky-button m-1 mx-lg-2 py-1'>Lucky One <BsFillQuestionDiamondFill/></button>
+          <button onClick={() => setCart([])} className='reset-button m-1 mx-lg-2 py-1'>Reset <BsFillTrashFill/></button>
         </div>
       </div>
+      <ShowModal disModal = {disModal} setDis = {setDis} cart = {cart}></ShowModal>
     </div>
   );
 };

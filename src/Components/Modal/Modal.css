@@ -1,0 +1,14 @@
+.modal-div{
+  width: 50vw;
+  height: 40vh;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.cross-button{
+  cursor: pointer;
+  color: red;
+  font-size: 1.3em;
+  font-weight: 600;
+}

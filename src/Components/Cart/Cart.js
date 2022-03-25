@@ -2,7 +2,6 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = props => {
-  console.log(props.cartItem[0], props.cartItem[1], props.cartItem[2])
   return (
     <div className='cart-container-div d-flex flex-column d-lg-flex flex-lg-row align-items-center border my-1'>
       <div className='cart-img-div my-1 mx-1'>
