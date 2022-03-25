@@ -1,0 +1,37 @@
+.main-container{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  justify-content: center;
+}
+
+.card-container{
+  width: 75%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minMax(272px, 1fr));
+  gap: 1em;
+}
+
+.cart-container{
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  padding: 0 1em;
+  background-color: white;
+}
+
+.cart-lucky-div button{
+  border-style: hidden;
+}
+
+.lucky-button{
+  background-color: #3ABD6E;
+  color: white;
+  font-weight: 600;
+}
+
+.reset-button{
+  background-color: #E63D50;
+  color: white;
+  font-weight: 600;
+}

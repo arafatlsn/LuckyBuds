@@ -1,0 +1,9 @@
+.cart-container-div{
+  width: 95%;
+}
+
+.cart-img-div img{
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}

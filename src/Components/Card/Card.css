@@ -1,0 +1,25 @@
+.card-container-div{
+  width: 272px;
+  height: 384px;
+  background-color: white;
+}
+
+.card-img-div{
+  width: 272px;
+  height: 272px;
+}
+
+/* .card-img-div img{
+  object-fit: cover;
+} */
+
+.card-title{
+  white-space: nowrap;
+}
+
+.card-text-div button{
+  background-color: #303841;
+  color: white;
+  border-style: hidden;
+  font-size: 1.1em;
+}
