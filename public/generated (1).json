@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "picture": "https://m.media-amazon.com/images/I/61q-0zuHrkL._AC_UY218_.jpg",
+    "name": "Donerton Wireless Earbud",
+    "price": 32
+  },
+  {
+    "id": 2,
+    "picture": "https://m.media-amazon.com/images/I/71MQFH+GrsL._AC_UY218_.jpg",
+    "name": "JBL Tune 125TWS",
+    "price": 18
+  },
+  {
+    "id": 3,
+    "picture": "https://m.media-amazon.com/images/I/61yvxO7pd3S._AC_UY218_.jpg",
+    "name": "Skullcandy Dime",
+    "price": 15
+  },
+  {
+    "id": 4,
+    "picture": "https://m.media-amazon.com/images/I/71-bHo+2rOL._AC_UY218_.jpg",
+    "name": "Sony MDREX15AP",
+    "price": 20
+  },
+  {
+    "id": 5,
+    "picture": "https://m.media-amazon.com/images/I/61MbFOIeJTL._AC_UY218_.jpg",
+    "name": "Sony WF-C500",
+    "price": 28
+  },
+  {
+    "id": 6,
+    "picture": "https://m.media-amazon.com/images/I/41c3IqnDOqL._AC_UY218_.jpg",
+    "name": "Sony MDRXB55AP",
+    "price": 38
+  },
+  {
+    "id": 7,
+    "picture": "https://m.media-amazon.com/images/I/519Dfq0ir6L._AC_UY218_.jpg",
+    "name": "Bose Sport Earbuds",
+    "price": 28
+  },
+  {
+    "id": 8,
+    "picture": "https://m.media-amazon.com/images/I/715pa9oXx9L._AC_UY218_.jpg",
+    "name": "JVC Gumy in Ear Earbud",
+    "price": 48
+  },
+  {
+    "id": 9,
+    "picture": "https://m.media-amazon.com/images/I/81ju37C9blL._AC_UY218_.jpg",
+    "name": "MEE audio M6 Sweatproof Sports",
+    "price": 30
+  },
+  {
+    "id": 10,
+    "picture": "https://m.media-amazon.com/images/I/71H9djCF24L._AC_UY218_.jpg",
+    "name": "Skullcandy",
+    "price": 28
+  },
+  {
+    "id": 11,
+    "picture": "https://m.media-amazon.com/images/I/61jJ-l1PyrL._AC_UY218_.jpg",
+    "name": "Amazfit PowerBuds",
+    "price": 25
+  },
+  {
+    "id": 12,
+    "picture": "https://m.media-amazon.com/images/I/61GGAwjJS+L._AC_UY218_.jpg",
+    "name": "SENNHEISER CX Plus",
+    "price": 38
+  }
+]

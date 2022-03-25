@@ -1,0 +1,15 @@
+.header-container{
+  width: 75%;
+  margin: auto;
+}
+
+.img-side-div img{
+  width: 180px;
+}
+
+.text-side-div a{
+  text-decoration: none;
+  font-size: 1.3em;
+  color: black;
+  font-weight: 600;
+}
