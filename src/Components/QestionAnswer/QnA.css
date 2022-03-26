@@ -1,0 +1,10 @@
+.qna-parent{
+  width: 100%;
+  padding-top: 2em;
+}
+
+.qna-div{
+  width: 70%;
+  margin: auto;
+  background-color: white;
+}
