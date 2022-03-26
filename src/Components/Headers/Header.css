@@ -1,6 +1,7 @@
 .header-container{
   width: 75%;
   margin: auto;
+  padding: 2em 1em;
 }
 
 .img-side-div img{
@@ -12,4 +13,20 @@
   font-size: 1.3em;
   color: #5A5A5A;
   font-weight: 600;
+  margin-left: 1em;
+}
+
+@media screen and (max-width: 480px) {
+  .img-side-div img{
+    width: 120px;
+  }
+  .header-container{
+    width: 100%;
+    padding: 1.5em 1em;
+  }
+  .text-side-div a{
+    font-size: 1em;
+    color: #5A5A5A;
+    font-weight: 600;
+  }
 }

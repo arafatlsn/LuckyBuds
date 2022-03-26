@@ -35,3 +35,23 @@
   color: white;
   font-weight: 600;
 }
+
+@media screen and (max-width: 480px) {
+  .card-container{
+    width: 65vw;
+  }
+
+  .cart-items-div{
+    height: 55%;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+
+  .lucky-button{
+    font-size: .5em;
+  }
+
+  .reset-button{
+    font-size: .5em;
+  }
+}

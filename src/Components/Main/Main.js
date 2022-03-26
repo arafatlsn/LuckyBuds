@@ -34,9 +34,11 @@ const Main = () => {
       </div>
       <div className='cart-container'>
         <h5 className='my-3'>Cart Preview</h5>
+        <div className='cart-items-div'>
         {
           cart.map(cartItem => <Cart key={cartItem[0]} cartItem = {cartItem}></Cart>)
         }
+        </div>
         <div className='cart-lucky-div d-flex flex-column mt-3'>
           <button onClick={() => setDis(true)} className='lucky-button m-1 mx-lg-2 py-1'>Lucky One <BsFillQuestionDiamondFill/></button>
           <button onClick={() => setCart([])} className='reset-button m-1 mx-lg-2 py-1'>Reset <BsFillTrashFill/></button>

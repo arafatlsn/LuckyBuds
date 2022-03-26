@@ -8,14 +8,22 @@ const ShowModal = ({disModal, setDis, cart}) => {
   if(!cartFilt){
     cartFilt = []
   }
-  console.log(cartFilt[0])
   return (
     <div>
-      <Modal className='modal-div border' isOpen = {disModal}>
-        <div className='d-flex justify-content-between text-success px-3 py-2'>
-          <h2 className='m-0'>Your Lucky Item:</h2>
-          <p onClick={() => setDis(false)} className='cross-button m-0'>Close</p>
+      <Modal className='modal-div' isOpen = {disModal}>
+        <div className='modal-header-div d-flex justify-content-between align-items-center text-white'>
+          <h6 className='my-0 mx-2 fw-bold'>Your Lucky Item:</h6>
+          <p onClick={() => setDis(false)} className='modal-crss-btn my-0 mx-2 fw-bold'>close</p>
         </div>
+        <div className='cart-container-div d-flex d-lg-flex flex-lg-row align-items-center border w-100 bg-white'>
+        <div className='cart-img-div my-1 mx-1'>
+          <img src={cartFilt[1]} alt='airbud'/>
+        </div>
+        <div className='d-flex flex-column mt-lg-0 ms-lg-1'>
+          <h6 className='m-0 text-center'>{cartFilt[0]}</h6>
+          <h6 className='m-0'>$<span>{cartFilt[2]}</span></h6>
+        </div>
+      </div>
       </Modal>
     </div>
   );
