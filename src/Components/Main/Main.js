@@ -16,14 +16,12 @@ const Main = () => {
   }, []);
 
   const addCart = product => {
-    const arr = {name: ['abul']};
-    console.log(arr)
     const newCart = [...cart, product]
     if(cart.length <= 3){
       setCart(newCart)
     }
     else{
-      
+      alert('you are reached maximum size of cart.')
     }
   }
 
@@ -42,7 +40,7 @@ const Main = () => {
         }
         </div>
         <div className='cart-lucky-div d-flex flex-column mt-3'>
-          <button onClick={() => setDis(true)} className='lucky-button m-1 mx-lg-2 py-1'>Lucky One <BsFillQuestionDiamondFill/></button>
+          <button onClick={() => cart.length < 4 ? alert('please! choose minimum 4 items') : setDis(true)} className='lucky-button m-1 mx-lg-2 py-1'>Lucky One <BsFillQuestionDiamondFill/></button>
           <button onClick={() => setCart([])} className='reset-button m-1 mx-lg-2 py-1'>Reset <BsFillTrashFill/></button>
         </div>
       </div>
