@@ -42,7 +42,7 @@
   }
 
   .cart-items-div{
-    height: 55%;
+    height: 50%;
     overflow: hidden;
     overflow-y: scroll;
   }
