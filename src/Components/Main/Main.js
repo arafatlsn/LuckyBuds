@@ -13,18 +13,20 @@ const Main = () => {
     fetch('generated (1).json')
     .then(res => res.json())
     .then(data => setProducts(data))
-  }, [])
+  }, []);
+
   const addCart = product => {
+    const arr = {name: ['abul']};
+    console.log(arr)
     const newCart = [...cart, product]
     if(cart.length <= 3){
       setCart(newCart)
     }
     else{
-      // alert('you are reached maximum item selected')
+      
     }
   }
 
-  console.log(disModal)
   return (
     <div className='main-container'>
       <div className='card-container'>
