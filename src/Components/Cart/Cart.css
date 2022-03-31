@@ -7,3 +7,8 @@
   height: 60px;
   object-fit: contain;
 }
+
+.cart-remove-button{
+  cursor: pointer;
+  color: #E63D50;
+}
